@@ -1,5 +1,5 @@
 # HR-Data-Migration
-**Business Scenario:** The HR department of a leading Healthcare facility, operating across multiple locations in Canada, is actively seeking an experienced ETL Developer. In this role, you will play a crucial part in spearheading the creation of an efficient data pipeline to facilitate the migration of absence, misconduct, and overtime data from flat files to our central data warehouse. Additionally, you will be responsible for automating the ETL process to ensure the continuous ingestion of data into the data warehouse, enabling streamlined analysis and data reporting.
+**Business Scenario:** The HR department of a leading Healthcare facility, operating across multiple locations in Nigeria, is actively seeking an experienced ETL Developer. In this role, you will play a crucial part in spearheading the creation of an efficient data pipeline to facilitate the migration of absence, misconduct, and overtime data from flat files to our central data warehouse. Additionally, you will be responsible for automating the ETL process to ensure the continuous ingestion of data into the data warehouse, enabling streamlined analysis and data reporting.
 
 
 **Steps Taken to Migrate the HR data into the Central Data Warehouse**
