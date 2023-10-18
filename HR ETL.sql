@@ -1,6 +1,6 @@
 ----------The first thing I did was to Create the staging and data Warehouse for the Human Resources (Hr) data
 
-----------Create the HR Staging Database-------
+----------Create the Hr Staging Database-------
 IF NOT EXISTs (SELECT Name FROM sys.databases WHERE Name = 'HrStaging')
 	CREATE DATABASE HrStaging
 ELSE
@@ -75,9 +75,9 @@ SET NOCOUNT ON
 			when 6 then 'Viernes' when 7 then 'Sabado'
 			END, 
 		CASE DATEPART(MONTH, @CurrentDate)
-			WHEN 1 THEN 'Janvier' when 2 THEN 'Février' when 3 then 'mars' WHEN 4 THEN 'Avril' WHEN 5 THEN 'Mai'
-			WHEN 6 THEN 'JUIN' WHEN 7 THEN 'Juillet' WHEN 8 THEN 'Août' when 9 then 'Septembre' when 10 then 'Octobre'
-			WHEN 11 THEN 'Novembre' when 12 then 'Décembre' 
+			WHEN 1 THEN 'Janvier' when 2 THEN 'Fï¿½vrier' when 3 then 'mars' WHEN 4 THEN 'Avril' WHEN 5 THEN 'Mai'
+			WHEN 6 THEN 'JUIN' WHEN 7 THEN 'Juillet' WHEN 8 THEN 'Aoï¿½t' when 9 then 'Septembre' when 10 then 'Octobre'
+			WHEN 11 THEN 'Novembre' when 12 then 'Dï¿½cembre' 
 		END,
 		CASE DATEPART(WEEKDAY, @CurrentDate)
 			WHEN 1 THEN 'Dimanche' when 2 then 'Lundi' when 3 then 'Mardi' when 4 then 'Mercredi' when 5 then 'Jeudi'
