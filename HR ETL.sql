@@ -41,7 +41,7 @@ LoadDate datetime default getdate(),
 Constraint edw_dimdate_sk Primary key (DateSK)
 )
 
------ insert Dta dynamically into the Date table using a stored Procedure
+----- insert Data dynamically into the Date table using a stored Procedure
 
 Create or alter procedure EDW.DateGenerator(@StartDate date, @endDate date)
 AS
@@ -75,9 +75,9 @@ SET NOCOUNT ON
 			when 6 then 'Viernes' when 7 then 'Sabado'
 			END, 
 		CASE DATEPART(MONTH, @CurrentDate)
-			WHEN 1 THEN 'Janvier' when 2 THEN 'Février' when 3 then 'mars' WHEN 4 THEN 'Avril' WHEN 5 THEN 'Mai'
-			WHEN 6 THEN 'JUIN' WHEN 7 THEN 'Juillet' WHEN 8 THEN 'Août' when 9 then 'Septembre' when 10 then 'Octobre'
-			WHEN 11 THEN 'Novembre' when 12 then 'Décembre' 
+			WHEN 1 THEN 'Janvier' when 2 THEN 'Fï¿½vrier' when 3 then 'mars' WHEN 4 THEN 'Avril' WHEN 5 THEN 'Mai'
+			WHEN 6 THEN 'JUIN' WHEN 7 THEN 'Juillet' WHEN 8 THEN 'Aoï¿½t' when 9 then 'Septembre' when 10 then 'Octobre'
+			WHEN 11 THEN 'Novembre' when 12 then 'Dï¿½cembre' 
 		END,
 		CASE DATEPART(WEEKDAY, @CurrentDate)
 			WHEN 1 THEN 'Dimanche' when 2 then 'Lundi' when 3 then 'Mardi' when 4 then 'Mercredi' when 5 then 'Jeudi'
