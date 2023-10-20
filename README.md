@@ -51,3 +51,4 @@ To automate the process, I leveraged the SQL Server Agent, which allowed me to s
 Furthermore, to track the success and quality of the data loading process, I incorporated metrics within my SQL scripts. These metrics included precount (count of records before loading), descount (count of records discarded during loading), currentcount (count of records currently in the data warehouse), precount (count of records before loading), and postcount (count of records after loading). These metrics provided valuable insights into the data loading process and allowed for the identification of any data failures or discrepancies.
 
 By utilizing the control flow script, SQL Server Agent scheduling, and incorporating metrics, I ensured the continuous and automated ingestion of new data into the data warehouse. This approach enhanced the efficiency, accuracy, and reliability of the data loading process, enabling comprehensive data analysis and reporting.
+More to be added....

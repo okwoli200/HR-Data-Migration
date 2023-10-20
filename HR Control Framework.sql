@@ -43,7 +43,7 @@ Constraint Control_Frequency_pk primary key(FrequencyID)
 
 
 
-----------Control PackageType----------
+----------Control Package Type----------
 CREATE TABLE Control.PackageType
 (
 PackageTypeID int,
@@ -59,7 +59,7 @@ Values
 
 
 
-----------Control Package---------
+----------Control Package Table---------
 CREATE TABLE control.Package
 (
 PackageID int,
